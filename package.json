@@ -1,0 +1,28 @@
+{
+  "name": "valantistest",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "proxy": "http://api.valantis.store:40000/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "crypto-js": "^4.2.0",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.5.5"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.0.11"
+  }
+}
