@@ -1,6 +1,5 @@
 # valantisTest
-
-This template should help get you started developing with Vue 3 in Vite.
+DEMO : https://darkeyelids1337.github.io/valantisTest/ (Enable mixed content)
 
 ## Recommended IDE Setup
 
